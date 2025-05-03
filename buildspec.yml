@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            nodejs: 20
+        commands:
+            - echo Installing npm dependencies...
+            - npm install -g create-vite
+            - npm install
+
+    build:
+        commands:
+            - echo Building with Vite...
+            - npm run build
+
+    post_build:
+        commands:
+            - echo Build completed...
+            - echo "Deploying stage next"
+
+artifacts:
+    files: "**/*"
+    base-directory: "dist"
+    discard-paths: no
