@@ -3,9 +3,7 @@ export default function Awspractical() {
         <>
             <body>
                 <div className="container">
-                    <h2 className="main-title">
-                        Welcome to AWS User Groups ZIMBABWE Meet Up , May 2025
-                    </h2>
+                    <h2 className="main-title">Vibe coding is awesome</h2>
                     <p className="subtitle">
                         Join our community of AWS enthusiasts, developers,
                         architects and professionals in Zimbabwe. Learn, share
